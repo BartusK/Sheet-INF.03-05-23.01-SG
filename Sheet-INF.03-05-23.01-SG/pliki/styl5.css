@@ -1,0 +1,58 @@
+*{
+    font-family: Tahoma;
+}
+
+main{
+    clear: both;
+}
+
+header{
+    background-color: #7da453;
+    color: white;
+    height: 120px;
+}
+
+header > div{
+    float: left;
+}
+
+div#left{
+    width: 40%;
+}
+
+div#center{
+    width: 40%;
+}
+
+div#right{
+    width: 20%;
+}
+
+div.event{
+    background-color: #aed581;
+    width: 200px;
+    height: 100px;
+    margin: 7px;
+    border: 1px solid #7da453;
+    float: left;
+}
+
+div.event:hover{
+    color: white;
+    background-color: #7da453;
+}
+
+footer{
+    background-color: #7da453;
+    color: white;
+    padding: 5px;
+    clear: both;
+}
+
+h5{
+    text-align: center;
+}
+
+form{
+    padding-top: 50px;
+}
